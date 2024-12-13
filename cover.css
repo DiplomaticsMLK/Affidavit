@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('mlkphoto.jpg'); /* Substitua pelo caminho da foto */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6; /* Aplicando opacidade de 20% */
+    z-index: -1;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 10%; /* Distância do botão em relação à parte inferior */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.enter-button {
+    font-family: 'Special Elite', sans-serif; /* Aplicando a fonte ao botão */
+    font-size: 2em; /* Tamanho da letra ajustado */
+    padding: 10px 20px; /* Espaçamento interno ajustado */
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 1em; /* Margem ao redor do botão */
+}
+
+.enter-button:hover {
+    background-color: #555;
+}
