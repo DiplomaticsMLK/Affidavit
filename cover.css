@@ -18,32 +18,33 @@ body, html {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('mlkphoto.jpg'); /* Substitua pelo caminho da foto */
+    background-image: url('mlkphoto.jpg'); 
     background-size: cover;
     background-position: center;
-    opacity: 0.6; /* Aplicando opacidade de 20% */
+    opacity: 0.6; 
     z-index: -1;
 }
 
 .button-container {
     position: absolute;
-    bottom: 10%; /* Distância do botão em relação à parte inferior */
+    bottom: 10%;
+    left: 5%; 
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-start; 
+    width: auto; 
 }
 
 .enter-button {
-    font-family: 'Special Elite', sans-serif; /* Aplicando a fonte ao botão */
-    font-size: 2em; /* Tamanho da letra ajustado */
-    padding: 10px 20px; /* Espaçamento interno ajustado */
+    font-family: 'Special Elite', sans-serif; 
+    font-size: 2em; 
+    padding: 10px 20px; 
     color: white;
     background-color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    text-transform: uppercase;
-    margin: 1em; /* Margem ao redor do botão */
+    margin: 1em 0; 
+    text-transform: none; 
 }
 
 .enter-button:hover {
