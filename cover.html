@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Luther King Jr</title>
+    <!-- Link para a fonte Special Elite no Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .background {
+            background-image: url('mlkphoto.jpg'); /* Substitua pelo caminho da foto */
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .button-container {
+            margin-bottom: 10%;
+        }
+
+        .enter-button {
+            font-family: 'Special Elite', sans-serif; /* Aplicando a fonte ao botão */
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+        .enter-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="button-container">
+            <button class="enter-button" onclick="window.location.href='index.html'">
+                Explore Martin Luther King Jr Affidavit
+            </button>
+        </div>
+    </div>
+    <audio autoplay>
+        <source src="mlkspeech.mp3" type="audio/mpeg"> <!-- Substitua pelo caminho do áudio -->
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
