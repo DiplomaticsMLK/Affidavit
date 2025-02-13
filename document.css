@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    font-family: 'Special Elite', cursive;
+}
+
+.footer-custom {
+    background-color: #343a40; /* Cinza grafite */
+    color: white; /* Texto branco no rodapé */
+    padding: 20px;
+}
+
+.footer-custom a {
+    color: white; /* Links brancos no rodapé */
+}
+
+.footer-custom a:hover {
+    text-decoration: underline; /* Efeito de hover nos links */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
